@@ -1,0 +1,33 @@
+{
+  "name": "template_web",
+  "version": "1.0.0",
+  "description": "Web template (Sass, babel...)",
+  "scripts": {
+    "dev": "node_modules/parcel-bundler/bin/cli.js src/html/index.html",
+    "build": "node_modules/parcel-bundler/bin/cli.js build src/html/index.html --target browser --public-url './'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pop123123123/web_template.git"
+  },
+  "author": "Louis MOUHAT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pop123123123/web_template/issues"
+  },
+  "homepage": "https://github.com/pop123123123/web_template#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "caniuse-lite": "^1.0.30000910",
+    "parcel-bundler": "^1.10.3",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "parcel-plugin-imagemin": "^2.1.1",
+    "parcel-plugin-purifycss": "^1.0.2",
+    "sass": "^1.15.1"
+  },
+  "dependencies": {
+    "style.css": "^1.0.0"
+  }
+}
